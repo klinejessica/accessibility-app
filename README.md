@@ -14,3 +14,6 @@ To Do:
 
 To Do
 -styling
+
+# Postcard
+- built using basic html forms and focusing on inputs and styling
