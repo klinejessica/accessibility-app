@@ -1,0 +1,37 @@
+body {
+    font: 1.3rem sans-serif;
+    padding: 0.5em;
+    margin: 0;
+    background: #222222;
+}
+
+form {
+    position: relative;
+    width: 740px;
+    height: 490px;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #fff url("./postcard.jpg");
+    background-size: 740px 490px;
+
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: 4em 12.5em 1em 1em 1em 1em 1em 1em; */
+
+}
+
+
+label {
+    font: 0.8em;
+}
+
+input, textarea {
+    border: none;
+    padding: 0 10px;
+    margin: 0;
+    width: 80%;
+    background: none;
+}
