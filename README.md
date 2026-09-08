@@ -14,3 +14,9 @@ To Do:
 
 To Do
 -styling
+
+# Inputs
+- basic html inputs
+
+To Do 
+-styling
