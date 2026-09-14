@@ -107,4 +107,71 @@
     <meter min="0" max="100" value="75" low="33" high="66" optimum="0">75</meter>
     <h3>#25 Progress</h3>
     <progress max="100" value="75">75/100</progress>
+    <h3>#26 Select</h3>
+    <select id="simple" name="simple">
+        <option>Banana</option>
+        <option selected>Cherry</option>
+        <option> Lemon</option>
+    </select>
+       <h3>#26 Select using optgroup</h3>
+    <select id="optgroup" name="optgroup">
+        <optgroup label="fruits">
+        <option>Banana</option>
+        <option selected>Cherry</option>
+        <option>Lemon</option>
+         <optgroup label="vegetables">
+        <option>Carrot</option>
+        <option selected>Eggplant</option>
+        <option>Potato</option>
+        </optgroup>
+    </select>
+    <h3>#27 Select with value</h3>
+    <select id="value" name="value">
+        <option value="banana">Big, beautiful yellow banana</option>
+        <option value="cherry">Succulent, juicy cherry</option>
+        <option value="lemon">Sharp, powerful lemon</option>
+    </select>
+    <h3>#28 multiple choice select box</h3>
+    <select id="multi" name="multi" multiple size="3">
+            <optgroup label="fruits">
+        <option>Banana</option>
+        <option selected>Cherry</option>
+        <option>Lemon</option>
+         <optgroup label="vegetables">
+        <option>Carrot</option>
+        <option selected>Eggplant</option>
+        <option>Potato</option>
+        </optgroup>
+    </select>
+    <h3>#29 Datalist</h3>
+    <label for="myFruit" >What's your favorite fruit?</label>
+    <input type="text" name="myFruit" id="myFruit" list="mySuggestion">
+    <datalist id="mySuggestion">
+        <option>Apple</option>
+        <option>Banana</option>
+        <option>Blackberry</option>
+        <option>Blueberry</option>
+        <option>Lemon</option>
+        <option>Lychee</option>
+        <option>Peach</option>
+        <option>Pear</option>
+    </datalist>
+    <h3>#30 Datalist - range</h3>
+    <label for="temp">Choose a comfortable temp:</label>
+    <input type="range" name="temp" id="temp" list="markers">
+    <datalist id="markers">
+        <option value="0"></option>
+        <option value="25"></option>
+        <option value="50"></option>
+        <option value="75"></option>
+        <option value="100"></option>
+    </datalist>
+    <h3>#31 Datalist - autocomplete</h3>
+    <label for="country">Country: </label>
+    <input type="text" id="country" name="country" list="suggs">
+    <datalist id="suggs">
+        <option value="Canada"></option>
+        <option value="USA"></option>
+        <option value="Mexico"></option>
+    </datalist>
 </form>
