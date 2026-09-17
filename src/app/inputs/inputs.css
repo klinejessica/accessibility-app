@@ -45,3 +45,27 @@ input[type="color"] {
     border:0;
     padding: 0;
 }
+
+/* Remove button to style */
+input[type="file"] {
+    height: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+label[for="file"]{
+    box-shadow: 1px 1px 3px #cccccc;
+    background: linear-gradient(to bottom, #eeeeee, #cccccc);
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 1em;
+}
+
+label[for="file"]:hover {
+    background:  linear-gradient(to bottom, white, #dddddd);
+}
+
+label[for="file"]:active {
+    box-shadow: inset 1px 1px 3px #cccccc;
+}
