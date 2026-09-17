@@ -32,3 +32,16 @@ input[type="checkbox"]:disabled {
     background: #dddddd;
     color: gray;
 }
+
+input[type="range"] {
+   appearance: none;   /* Gets rid of line */
+   background: rgb(186, 184, 184); 
+   height: 2px;
+   padding: 0;
+   outline: 1px solid transparent;
+}
+
+input[type="color"] {
+    border:0;
+    padding: 0;
+}
