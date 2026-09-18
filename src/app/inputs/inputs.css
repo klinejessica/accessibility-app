@@ -88,3 +88,7 @@ label[for="file"]:active {
 #focused:focus {
     background-color: green;
 }
+
+select, ::picker(select) {
+    appearance: base-select;
+}

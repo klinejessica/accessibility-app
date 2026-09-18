@@ -152,7 +152,39 @@
         <option>Potato</option>
         </optgroup>
     </select>
-    <h3>#29 Datalist</h3>
+    <h3>#29 Customizable Select</h3>
+        <label for="pet-select">Select Pet:</label>
+        <select id="pet-select">
+            <button>
+                <selectedcontent></selectedcontent>
+            </button>
+            <option value="">Please select a pet</option>
+            <option value="cat">
+                <span class="icon" aria-hidden="true">🐱</span>
+                <span class="optional-label">Cat</span>
+            </option>
+            <option value="dog">
+                <span class="icon" aria-hidden="true">🐶</span>
+                <span class="optional-label">Dog</span>
+            </option>
+            <option value="hamster">
+                <span class="icon" aria-hidden="true">🐹</span>
+                <span class="optional-label">Hamster</span>
+            </option>
+            <option value="chicken">
+                <span class="icon" aria-hidden="true">🐔</span>
+                <span class="optional-label">Chicken</span>
+            </option>
+            <option value="fish">
+                <span class="icon" aria-hidden="true">🐟</span>
+                <span class="optional-label">Fish</span>
+            </option>
+            <option value="snake">
+                <span class="icon" aria-hidden="true">🐍</span>
+                <span class="option-label">Snake</span>
+            </option>
+        </select>
+    <h3>#30 Datalist</h3>
     <label for="myFruit" >What's your favorite fruit?</label>
     <input type="text" name="myFruit" id="myFruit" list="mySuggestion">
     <datalist id="mySuggestion">
@@ -165,7 +197,7 @@
         <option>Peach</option>
         <option>Pear</option>
     </datalist>
-    <h3>#30 Datalist - range</h3>
+    <h3>#31 Datalist - range</h3>
     <label for="temp">Choose a comfortable temp:</label>
     <input type="range" name="temp" id="temp" list="markers">
     <datalist id="markers">
@@ -175,7 +207,7 @@
         <option value="75"></option>
         <option value="100"></option>
     </datalist>
-    <h3>#31 Datalist - autocomplete</h3>
+    <h3>#32 Datalist - autocomplete</h3>
     <label for="country">Country: </label>
     <input type="text" id="country" name="country" list="suggs">
     <datalist id="suggs">
