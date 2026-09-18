@@ -84,3 +84,7 @@ label[for="file"]:hover {
 label[for="file"]:active {
     box-shadow: inset 1px 1px 3px #cccccc;
 }
+
+#focused:focus {
+    background-color: green;
+}
