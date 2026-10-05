@@ -31,15 +31,14 @@ nav > ul {
 }
 
 nav > ul > li {
-    color: #dfdfe2;
+    color: white;
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
 }
 
 nav li:hover {
-    background-color: #dfdfe2;
-    color: #1b1b32;
+    background-color: #f1be32;
     cursor: pointer;
 }
 
