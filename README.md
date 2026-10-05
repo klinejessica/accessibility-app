@@ -18,7 +18,7 @@ To Do
 -styling
 
 # Inputs
-- basic html inputs
+- list of basic html/css inputs
 
 To Do 
 -styling
