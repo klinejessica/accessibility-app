@@ -2,6 +2,8 @@
 
 This project was generated using version 20.3.1.
 
+# Homepage
+- currently this page is only to be able to navigate to the pages added
 
 # Quiz
 - built form using accessibility concepts with simple html concepts
