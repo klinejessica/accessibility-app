@@ -194,3 +194,35 @@ option::checkmark {
     top: calc(anchor(bottom) + 1px);
     left:anchor(10%);
 }
+
+/* Customizable Select - optgroup */
+optgroup {
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    background: #eeeeee;
+    padding: 10px 0 0 0;
+    margin-top: 5px;
+}
+
+optgroup legend {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+option {
+    background: #eeeeee;
+    padding: 10px;
+}
+
+option:last-of-type {
+    border-radius: 0 0 8px 8px;
+}
+
+option:nth-last-of-type(odd) {
+    background: white;
+}
+
+option:hover,
+option:focus {
+    background: plum;
+}
