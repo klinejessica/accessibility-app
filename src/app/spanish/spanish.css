@@ -6,7 +6,7 @@
 } */
 
 
-optgroup {
+/* optgroup {
     border: 2px solid #dddddd;
     border-radius: 8px;
     background: #eeeeee;
@@ -17,7 +17,7 @@ optgroup {
 optgroup legend {
     text-align: center;
     margin-bottom: 10px;
-}
+} */
 
 /* option {
     display: flex;
@@ -42,7 +42,7 @@ option:focus {
 
 /* Listbox  */
 
-select {
+/* select {
     appearance: base-select;
     border: 2px solid #dddddd;
     border-radius: 8px;
@@ -63,8 +63,8 @@ option:nth-last-of-type(odd){
 
 option::checkmark {
     order: 1;                       /* checkmark at the end */
-    margin-left: auto;              /* checkmark sits at the far right */
-    content:"☑️";
+ /*   margin-left: auto;              /* checkmark sits at the far right */
+ /*   content:"☑️";
 }
 
 option:checked {
@@ -74,4 +74,114 @@ option:checked {
 option:hover,
 option:focus {
     background: plum;
+} */
+
+/*  Horizontal Listbox */
+/* p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+select {
+    width: 100%;
+    height: fit-content;
+}
+
+.wrapper {
+    display: flex;
+    width: fit-content;
+}
+
+option {
+    padding: 10px 30px;
+    position: relative;
+}
+
+option::checkmark {
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 1.5rem;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+
+} */
+
+select {
+    appearance: base-select;
+}
+
+.wrapper {
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    background: #dddddd;
+    width: 250px;
+}
+
+.filter input {
+    display: block;
+    padding: 5px;
+    border: 1px solid #bbbbbb;
+    width: 95%;
+    margin: 8px auto;
+}
+
+.options {
+    padding: 0 5px;
+    background: #dddddd;
+}
+
+select {
+    height: 200px;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid #bbbbbb;
+}
+
+.edit {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+option {
+    background: #eeeeee;
+}
+
+option:nth-last-of-type(odd){
+    background: white;
+}
+
+option:checked {
+    font-weight: bold;
+}
+
+option:hover,
+option:focus {
+    background:plum;
+}
+
+input, option, a {
+    outline: none;
+}
+
+input:hover,
+input:focus {
+    border: 1px solid #999999;
+}
+
+.edit a {
+    color: #333333;
+}
+
+a:hover, 
+a:focus {
+    outline: 2px dotted #666666;
+}
+
+option::checkmark {
+    order: 1;
+    margin-left: auto;
+    content:"☑️";
 }
