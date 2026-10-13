@@ -1,9 +1,9 @@
-select {
+/* select {
     border:2px solid #dddddd;
     background: #eeeeee;
     padding: 10px;
     transition:0.4s;
-}
+} */
 
 
 optgroup {
@@ -19,15 +19,15 @@ optgroup legend {
     margin-bottom: 10px;
 }
 
-option {
+/* option {
     display: flex;
     justify-content: flex-start;
     gap: 20px;
     background: #eeeeee;
     padding: 10px;
-}
+} */
 
-option:last-of-type {
+/* option:last-of-type {
     border-radius: 0 0 8px 8px;
 }
 
@@ -38,4 +38,40 @@ option:nth-last-of-type(odd){
 option:hover,
 option:focus {
     background: lime;
+} */
+
+/* Listbox  */
+
+select {
+    appearance: base-select;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    background: #eeeeee;
+    height: max-content;
+}
+
+option {
+    background: #eeeeee;
+    padding:10px;
+    height: 40px;
+    outline: none;
+}
+
+option:nth-last-of-type(odd){
+    background: white;
+}
+
+option::checkmark {
+    order: 1;                       /* checkmark at the end */
+    margin-left: auto;              /* checkmark sits at the far right */
+    content:"☑️";
+}
+
+option:checked {
+    font-weight:bold;
+}
+
+option:hover,
+option:focus {
+    background: plum;
 }
