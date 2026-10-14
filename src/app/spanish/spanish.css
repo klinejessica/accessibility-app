@@ -123,8 +123,10 @@ option::checkmark {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10%;
     gap:1em;
+
 
 }
 
