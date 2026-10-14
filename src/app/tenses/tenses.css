@@ -1,0 +1,36 @@
+.flex-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap:1em;
+
+}
+
+.section {
+    flex-basis: 90%;
+    padding: 2em;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+.item {
+    perspective: 1000px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1em;
+    height: 150px;
+    width: 150px;
+    padding: 2em;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 10px;
+}

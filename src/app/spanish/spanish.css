@@ -1,80 +1,9 @@
-/* select {
-    border:2px solid #dddddd;
-    background: #eeeeee;
-    padding: 10px;
-    transition:0.4s;
-} */
-
-
-/* optgroup {
-    border: 2px solid #dddddd;
-    border-radius: 8px;
-    background: #eeeeee;
-    padding: 10px 0 0 0;
-    margin-top: 5px;
+a {
+    text-decoration: none;
 }
 
-optgroup legend {
-    text-align: center;
-    margin-bottom: 10px;
-} */
 
-/* option {
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    background: #eeeeee;
-    padding: 10px;
-} */
 
-/* option:last-of-type {
-    border-radius: 0 0 8px 8px;
-}
-
-option:nth-last-of-type(odd){
-    background: white;
-}
-
-option:hover,
-option:focus {
-    background: lime;
-} */
-
-/* Listbox  */
-
-/* select {
-    appearance: base-select;
-    border: 2px solid #dddddd;
-    border-radius: 8px;
-    background: #eeeeee;
-    height: max-content;
-}
-
-option {
-    background: #eeeeee;
-    padding:10px;
-    height: 40px;
-    outline: none;
-}
-
-option:nth-last-of-type(odd){
-    background: white;
-}
-
-option::checkmark {
-    order: 1;                       /* checkmark at the end */
- /*   margin-left: auto;              /* checkmark sits at the far right */
- /*   content:"☑️";
-}
-
-option:checked {
-    font-weight:bold;
-}
-
-option:hover,
-option:focus {
-    background: plum;
-} */
 
 /*  Horizontal Listbox */
 /* p {
@@ -186,39 +115,24 @@ option::checkmark {
     content:"☑️";
 }
 
-.flex-container{
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
     gap:1em;
 
 }
 
-.section {
-    flex-basis: 90%;
+.block {
     padding: 2em;
-    background-color: orange;
-    color: white;
+    color:mediumvioletred;
     text-align: center;
+    border: 2px solid mediumvioletred;
     border-radius: 8px;
-    font-size: 1.5rem;
-}
-.item {
-    perspective: 1000px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-    gap: 1em;
-    height: 150px;
-    width: 150px;
-    padding: 2em;
-    background-color: teal;
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    margin: 10px;
+    font-size: 2rem;
 }

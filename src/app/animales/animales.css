@@ -1,0 +1,41 @@
+ select {
+    border:2px solid #dddddd;
+    background: #eeeeee;
+    padding: 10px;
+    transition:0.4s;
+} 
+
+
+ optgroup {
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    background: #eeeeee;
+    padding: 10px 0 0 0;
+    margin-top: 5px;
+}
+
+optgroup legend {
+    text-align: center;
+    margin-bottom: 10px;
+} 
+
+option {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    background: #eeeeee;
+    padding: 10px;
+} 
+
+option:last-of-type {
+    border-radius: 0 0 8px 8px;
+}
+
+option:nth-last-of-type(odd){
+    background: white;
+}
+
+option:hover,
+option:focus {
+    background: lime;
+} 
