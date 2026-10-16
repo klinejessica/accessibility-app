@@ -1,0 +1,33 @@
+/*  Horizontal Listbox */
+p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+select {
+    appearance: base-select;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+option {
+    padding: 10px 30px;
+    position: relative;
+}
+
+option::checkmark {
+    order: 1;
+    margin-left: auto;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 1.5rem;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
