@@ -1,0 +1,39 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.iv {
+    display: flex;
+    justify-content: center;
+}
+
+
+select {
+    appearance: base-select;
+    border: 2px solid #dddddd;
+    background: #eeeeee;
+    padding: 10px;
+    transition:0.4s;
+    height: max-content;
+}
+
+option {
+    background: #eeeeee;
+    padding: 10px;
+    height: 40px;
+    outline: none;
+}
+
+option::checkmark {
+    order: 1;
+}
+
+option:nth-last-of-type(odd){
+    background: #dddddd;
+}
+
+option:hover,
+option:focus {
+    background:navy;
+    color:white;
+}

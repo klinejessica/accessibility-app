@@ -5,6 +5,7 @@ import { Spanish } from './spanish/spanish';
 import { Animales } from './animales/animales';
 import { Tenses } from './tenses/tenses';
 import { Conjugations } from './conjugations/conjugations';
+import { VerbosIrregulares } from './verbos-irregulares/verbos-irregulares';
 
 
 export const routes: Routes = [
@@ -13,5 +14,6 @@ export const routes: Routes = [
     {path: 'spanish', component: Spanish },
     {path: 'spanish/animales', component: Animales},
     {path: 'spanish/tenses', component: Tenses},
-    {path: 'spanish/conjugations',component: Conjugations}
+    {path: 'spanish/conjugations',component: Conjugations},
+    {path: 'spanish/irregularverbs', component: VerbosIrregulares}
 ];
