@@ -41,6 +41,31 @@ input:focus {
     background-color: #eeeeee;
 }
 
+/* generated content */
+input + span {
+    position: relative;
+}
+
+input:required + span::after {
+    font-size:0.7rem;
+    position: absolute;
+    content: "required";
+    color:white;
+    background-color: black;
+    padding: 5px 10px;
+    top: -26px;
+    left: -70px;
+}
+
+/* in-range */
+input:out-of-range + span::after {
+    color: white;
+    background-color: red;
+    width: 155px;
+    content: "Outside allowable value range";
+    left: -182px;
+}
+
 /* required */
 
 input + span::before {
@@ -72,7 +97,7 @@ input:valid + span::before {
     color:green;
 }
 
-/* in-range */
+
 
 
 /* Add notes */
@@ -96,18 +121,5 @@ input[type="radio"]:checked::before {
 
 
 
-/* generated content */
-input + span {
-    position: relative;
-}
 
-input:required + span::after {
-    font-size:0.7rem;
-    position: absolute;
-    content: "required";
-    color:white;
-    background-color: black;
-    padding: 5px 10px;
-    top: -26px;
-    left: -70px;
-}
+
