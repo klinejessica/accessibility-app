@@ -6,6 +6,7 @@ import { Animales } from './animales/animales';
 import { Tenses } from './tenses/tenses';
 import { Conjugations } from './conjugations/conjugations';
 import { Contact } from './contact/contact';
+import { Shipping } from './shipping/shipping';
 
 
 export const routes: Routes = [
@@ -15,5 +16,6 @@ export const routes: Routes = [
     {path: 'spanish/animales', component: Animales},
     {path: 'spanish/tenses', component: Tenses},
     {path: 'spanish/conjugations',component: Conjugations},
-    {path: 'contact', component: Contact}
+    {path: 'contact', component: Contact},
+    {path: 'shipping', component: Shipping}
 ];
