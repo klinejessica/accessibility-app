@@ -18,10 +18,12 @@ legend {
 fieldset > div {
     margin-bottom: 20px;
     display: flex;
+    justify-content: space-between;
 }
-
+button,
 label,
-input[type="text"] {
+input[type="text"]
+textarea {
     display: block;
     font-family: inherit;
     font-size: 100%;
@@ -37,8 +39,24 @@ input {
     border-radius: 5px;
 }
 
+label {
+    width: 40%;
+}
+
+input[type="text"],
+textarea {
+    width: 50%;
+}
+
+textarea {
+    height: 110px;
+    resize: none;
+}
+
 input:hover,
-input:focus {
+input:focus, 
+textarea:hover,
+textarea:focus {
     background-color: #eeeeee;
 }
 
@@ -51,4 +69,21 @@ input[type="text"]:disabled {
 
 label:has(+ :disabled){
     color: #aaaaaa;
+}
+
+button {
+    width: 60%;
+    margin: 20px auto;
+}
+
+input:read-only,
+textarea:read-only {
+    border: 0;
+    box-shadow: none;
+    background-color: white;
+}
+
+textarea:read-write {
+    box-shadow: inset 1px 1px 3px #cccccc;
+    border-radius: 5px;
 }

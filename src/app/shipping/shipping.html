@@ -33,4 +33,39 @@
             <input id="zip-code2" name="zip-code2" type="text" disabled required />
         </div>
     </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Check Shipping Details</legend>
+        <div>
+            <label for="sname">Name: </label>
+            <input id="sname" name="sname" value="Mr. Soft" readonly />
+        </div>
+        <div>
+            <label for="saddress">Address: </label>
+            <textarea id="saddress" name="sadress" readonly>
+                23 Elastic Way,
+                Vicious,
+                Brightrigdge,
+                CA
+            </textarea>
+        </div>
+        <div>
+            <label for="szip-code">Zip Code: </label>
+            <input id="szip-code" name="szip-code" type="text" value="94708" readonly />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Final Instructions</legend>
+        <div>
+            <label for="sms-confirm">Send confirmation via sms?</label>
+            <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+        </div>
+        <div>
+            <label for="instructions">Any special instructions?</label>
+            <textarea id="instructions" name="instructions"></textarea>
+        </div>
+    </fieldset>
+
+    <div><button>Ammend Details</button></div>
 </form>
